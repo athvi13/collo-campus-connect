@@ -47,16 +47,26 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        collo: {
+          purple: "hsl(var(--collo-purple))",
+          "purple-dark": "hsl(var(--collo-purple-dark))",
+          orange: "hsl(var(--collo-orange))",
+          green: "hsl(var(--collo-green))",
+          blue: "hsl(var(--collo-blue))",
+          red: "hsl(var(--collo-red))",
+          yellow: "hsl(var(--collo-yellow))",
+          gray: "hsl(var(--collo-gray))",
         },
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-card': 'var(--gradient-card)',
+      },
+      backdropBlur: {
+        'collo': '10px',
+      },
+      boxShadow: {
+        'glow': 'var(--shadow-glow)',
       },
       borderRadius: {
         lg: "var(--radius)",
